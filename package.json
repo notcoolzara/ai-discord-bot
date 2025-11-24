@@ -1,0 +1,16 @@
+{
+    "name": "ai-discord-bot",
+    "version": "1.0.0",
+    "description": "Discord AI bot with long memory using free/local LLMs",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "node src/index.js",
+      "deploy-commands": "node deploy-commands.js"
+    },
+    "dependencies": {
+      "discord.js": "^14.16.3",
+      "dotenv": "^16.4.5",
+      "node-fetch": "^3.3.2"
+    }
+  }
+  
